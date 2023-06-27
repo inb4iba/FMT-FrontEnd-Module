@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(180deg, #76a9d8 0%, #312663 100%);
+}
+
+.container {
+    margin: 1rem auto;
+    max-width: 1080px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    list-style: none;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    border: 1px solid #232326;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    background-color: #e4e4ef;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-wrapper {
+    width: 100%;
+    height: 50%;
+}
+
+.card-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #232326;
+}
+
+.price {
+    position: absolute;
+    font-size: 1.25rem;
+    left: 0;
+    transform: rotate(-5deg) translate(-0.25rem, -1rem);
+    background-color: rgb(241, 53, 53);
+    color: white;
+    padding: 0.25rem;
+    border-radius: 0 0.25rem 0.75rem 0;
+}
+
+.card-btns {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    padding: 0.25rem;
+    background-color: #312663;
+    color: white;
+    border-radius: 0.25rem;
+    transition: all 200ms;
+    text-align: center;
+}
+
+.btn:visited,
+.btn {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #443588;
+}
