@@ -3,7 +3,7 @@ Estamos desenvolvendo as funcionalidades da aplicação “Gerenciador Financeir
 
 Um grande benefício dessa abordagem é a liberdade de execução das suas ideias. Você é livre para resolver a problemática da melhor maneira, se esta estiver dentro dos requisitos da atividade proposta.
 
-1. Os exercícios de 6 a 10 resultarão na possibilidade de adicionar despesas divididas em um grupo de pessoas.
+1. Os exercícios resultarão na possibilidade de adicionar despesas divididas em um grupo de pessoas.
 2. A resolução das atividades deve ter foco em utilizar, sempre que for conveniente:
    * POO (Classes, Atributos e Closure)
    * Métodos de arrays (evite seguir utilizando for para percorrer arrays)
