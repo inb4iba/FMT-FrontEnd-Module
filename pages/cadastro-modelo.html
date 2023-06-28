@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <title>Cadastro de Modelo - Loja de veículos</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <nav>
+          <a href="../index.html">Início</a>
+          <a href="cadastro-marca.html">Marca</a>
+          <a href="#">Modelo</a>
+          <a href="cadastro-veiculo.html">Veículo</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <form onsubmit="registerModel()">
+          <label for="model">Modelo:</label>
+          <input type="text" name="model" id="model" />
+          <label for="brand">Marca:</label>
+          <select name="brand" id="brand">
+            <option selected value="null" disabled>Selecione uma marca</option>
+          </select>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="../scripts/models.js"></script>
+  </body>
+</html>
